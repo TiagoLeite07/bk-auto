@@ -4,7 +4,7 @@ The restaurant used is 20597 (Braga).
 The ratings given are good but not perfect.
 
 #How To Use:
-###UserScript via Greasemonkey or Tampermonkey (Preferred Method, allows slave windows):
+###UserScript via Greasemonkey or Tampermonkey:
 1. Download the relevent addon if you don't already have it
     - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) for Chrome
     - [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) for  Firefox
