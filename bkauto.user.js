@@ -9,6 +9,11 @@
 // @grant        none
 // ==/UserScript==
 
+function cookiesPage(){
+    //COOKIES PAGE
+    document.getElementById("NextButton").click();
+}
+
 function firstPage (){
     //FIRST PAGE
     document.getElementById("SurveyCode").value = 20597;
@@ -178,7 +183,9 @@ function seventeenthPage(){
 }
 
 $(document).ready(function(){
-    if ($("p:contains(Valorizamos)").size() > 0)
+    if ($("p:contains(cookies)").size() > 0)
+        cookiesPage();
+    else if ($("p:contains(Valorizamos)").size() > 0)
         firstPage();
     else if (($("div:contains(levar)").size() > 0) && ($("div:contains(restaurante)").size() > 0) && ($("div:contains(viagem)").size() > 0))
         secondPage();
