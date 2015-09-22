@@ -1,4 +1,7 @@
 # BK-auto
+This is a script to auto fill the Burger King's customer form. The script only works for the Portuguese Burger King.
+The restaurant used is 20597 (Braga).
+The ratings given are good but not perfect.
 
 #How To Use:
 ###UserScript via Greasemonkey or Tampermonkey (Preferred Method, allows slave windows):
